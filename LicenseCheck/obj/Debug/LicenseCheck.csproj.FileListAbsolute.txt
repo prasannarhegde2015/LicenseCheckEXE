@@ -3,4 +3,3 @@ E:\Project\C# Advanced Learning\Events\LicenseCheck\LicenseCheck\bin\Debug\Licen
 E:\Project\C# Advanced Learning\Events\LicenseCheck\LicenseCheck\bin\Debug\LicenseCheck.pdb
 E:\Project\C# Advanced Learning\Events\LicenseCheck\LicenseCheck\obj\Debug\LicenseCheck.exe
 E:\Project\C# Advanced Learning\Events\LicenseCheck\LicenseCheck\obj\Debug\LicenseCheck.pdb
-E:\Project\C# Advanced Learning\Events\LicenseCheck\LicenseCheck\obj\Debug\LicenseCheck.csprojResolveAssemblyReference.cache

@@ -80,17 +80,18 @@ namespace LicenseCheck
                     
                 }
             }
-            hlpr.LogTabletoWordFile(dtoutput);
+            
 
-            TerminateProcessByForce("WINWORD*");
+        
            
             if (dtoutput.Rows.Count > 0)
             {
+                hlpr.LogTabletoWordFile(dtoutput);
                 SendEmailNotification(ConfigurationManager.AppSettings["wordfile"],listTo,listCC, ReadTextfromTextFile(strmsgfile));
             }
             else
             {
-                SendEmailNotification(null, listTo, listCC, ReadTextfromTextFile(strmsgfileno));
+                SendEmailNotification("", "Prasanna.Hegde@me.weatherford.com", listCC, ReadTextfromTextFile(strmsgfileno));
             }
             TerminateProcessByForce("WINWORD*");
             TaskKill("WINWORD*");
